@@ -1,0 +1,137 @@
+.slide-4 {
+  width: 100%;
+  height: 100%;
+  background: #1A1614;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.radial-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(217, 119, 87, 0.08) 0%, transparent 70%);
+}
+
+.slide-4-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.headline {
+  text-align: center;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 7vw;
+  line-height: 1.1;
+  color: #F5EDE8;
+}
+
+.word {
+  display: inline-block;
+  opacity: 0;
+}
+
+.active .word {
+  animation: text-reveal 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.active .word-1 { animation-delay: 0.4s; }
+.active .word-2 { animation-delay: 0.5s; }
+.active .word-3 { animation-delay: 0.65s; }
+.active .word-4 { animation-delay: 1.0s; }
+.active .word-5 { animation-delay: 1.2s; }
+
+@keyframes text-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.highlight-play {
+  color: #D97757;
+  display: inline-block;
+  transform: rotate(-2deg) scale(1.05);
+}
+
+.sparkle-field {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  color: #D97757;
+  opacity: 0;
+}
+
+.active .sparkle {
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+
+.claude-mark {
+  opacity: 0;
+}
+
+.active .claude-mark {
+  animation: logo-entrance 0.8s ease-out forwards;
+}
+
+@keyframes logo-entrance {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.claude-logo {
+  width: 180px;
+  height: 180px;
+  filter: drop-shadow(0 0 20px rgba(217, 119, 87, 0.3));
+}
+
+.active .claude-logo {
+  animation: logo-breathe 4s ease-in-out infinite, logo-drift 8s ease-in-out infinite;
+}
+
+@keyframes logo-breathe {
+  0%, 100% {
+    filter: drop-shadow(0 0 12px rgba(217, 119, 87, 0.3));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(217, 119, 87, 0.6));
+    transform: scale(1.05);
+  }
+}
+
+@keyframes logo-drift {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.03) rotate(3deg); }
+  50% { transform: scale(1.05) rotate(0deg); }
+  75% { transform: scale(1.03) rotate(-3deg); }
+}
