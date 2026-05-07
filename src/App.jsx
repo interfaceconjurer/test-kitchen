@@ -1,16 +1,23 @@
 import { useState, useRef } from 'react'
+import Slide1 from './slides/Slide1'
+import Slide2 from './slides/Slide2'
+import Slide3 from './slides/Slide3'
+import Slide4 from './slides/Slide4'
+import Slide5 from './slides/Slide5'
+import Slide6 from './slides/Slide6'
+import Slide7 from './slides/Slide7'
 import './App.css'
 
-const slides = [
-  { bg: '#1a1a2e', color: '#eaeaea' },
-  { bg: '#16213e', color: '#eaeaea' },
-  { bg: '#0f3460', color: '#eaeaea' },
-  { bg: '#533483', color: '#eaeaea' },
-  { bg: '#e94560', color: '#ffffff' },
-]
+const slides = [Slide1, Slide2, Slide3, Slide4, Slide5, Slide6, Slide7]
+
+function getInitialSlide() {
+  const params = new URLSearchParams(window.location.search)
+  const s = parseInt(params.get('slide'), 10)
+  return s >= 1 && s <= slides.length ? s - 1 : 0
+}
 
 function App() {
-  const [current, setCurrent] = useState(0)
+  const [current, setCurrent] = useState(getInitialSlide())
   const [previous, setPrevious] = useState(null)
   const [direction, setDirection] = useState('next')
   const [animating, setAnimating] = useState(false)
@@ -39,6 +46,7 @@ function App() {
   }
 
   const handleClick = (e) => {
+    if (e.target.closest('button')) return
     const x = e.clientX
     const width = window.innerWidth
     if (x < width * 0.3) {
@@ -72,13 +80,9 @@ function App() {
       tabIndex={0}
     >
       <div className="slide-container">
-        {slides.map((slide, i) => (
-          <div
-            key={i}
-            className={getSlideClass(i)}
-            style={{ backgroundColor: slide.bg, color: slide.color }}
-          >
-            <span className="slide-number">{i + 1}</span>
+        {slides.map((SlideComponent, i) => (
+          <div key={i} className={getSlideClass(i)}>
+            <SlideComponent />
           </div>
         ))}
       </div>
