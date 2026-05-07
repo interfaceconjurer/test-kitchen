@@ -1,0 +1,129 @@
+.slide-6 {
+  width: 100%;
+  height: 100%;
+  background: #0F172A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.equation-left,
+.equation-right {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.equation-operator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.active .equation-operator {
+  animation: fade-in 0.5s ease-out 0.3s forwards;
+}
+
+.operator-icon {
+  color: #94A3B8;
+}
+
+.equals-sign {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #94A3B8;
+}
+
+.equation-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0;
+}
+
+.active .equation-prompt {
+  animation: fade-in 0.5s ease-out 0.3s forwards;
+}
+
+.prompt-icon {
+  color: #8B5CF6;
+}
+
+.prompt-text {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.8rem;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.equation-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.grid-title {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #F8FAFC;
+  margin: 0;
+  opacity: 0;
+}
+
+.active .grid-title {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.funnel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.funnel-img {
+  width: 250px;
+  height: 250px;
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.active .funnel-img {
+  animation: img-appear 0.4s ease-out forwards;
+}
+
+.funnel-img img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+@keyframes img-appear {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
