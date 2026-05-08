@@ -1,8 +1,6 @@
-# AI Test Kitchen
+![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-1.png)
 
-A presentation about experimentation, curiosity, and the unexpected paths that lead us somewhere new.
-
-Built as a custom React + Vite slide deck.
+![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-2.png)
 
 ---
 
