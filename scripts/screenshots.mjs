@@ -35,8 +35,8 @@ async function run() {
 
   const VIEWPORTS = [
     { width: 1280, height: 720 },  // Slide 1
-    { width: 1920, height: 1080 }, // Slide 2 (tall content)
-    { width: 1920, height: 1080 }, // Slide 3 (tall content)
+    { width: 1600, height: 900 },  // Slide 2 (tall content)
+    { width: 1600, height: 900 },  // Slide 3 (tall content)
     { width: 1280, height: 720 },  // Slide 4
     { width: 1280, height: 720 },  // Slide 5
     { width: 1280, height: 720 },  // Slide 6
