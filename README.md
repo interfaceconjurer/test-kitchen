@@ -78,6 +78,19 @@ A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade
 | Cost | ~$1.50 |
 | Training Time | ~20 minutes |
 
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-1.png" width="100%"></td>
+    <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-2.png" width="100%"></td>
+    <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-3.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-4.png" width="100%"></td>
+    <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-5.png" width="100%"></td>
+    <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-6.png" width="100%"></td>
+  </tr>
+</table>
+
 ---
 
 ## Running Locally
