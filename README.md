@@ -64,6 +64,22 @@ The tool I built to do all this is called Fine Tunes — a Python CLI wrapper ar
 
 ---
 
+### The Model: Android Dream v4
+
+**[View on Replicate](https://replicate.com/interfaceconjurer/android-dream-v4)** · **[Source Code](https://github.com/interfaceconjurer/fine-tunes)**
+
+A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale — tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
+
+| Property | Value |
+|----------|-------|
+| Trigger Word | `BLADED` |
+| Training Steps | 2000 |
+| Training Images | 7 captioned images |
+| Cost | ~$1.50 |
+| Training Time | ~20 minutes |
+
+---
+
 ## Running Locally
 
 ```bash
