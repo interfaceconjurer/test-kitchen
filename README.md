@@ -1,3 +1,5 @@
+This work was done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series exploring tips and tricks and ways to get started using AI for designers.
+
 ![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-1.png)
 
 ![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-2.png)
