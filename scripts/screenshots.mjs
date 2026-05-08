@@ -32,15 +32,26 @@ async function run() {
   });
 
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+
+  const VIEWPORTS = [
+    { width: 1280, height: 720 },  // Slide 1
+    { width: 1920, height: 1080 }, // Slide 2 (tall content)
+    { width: 1920, height: 1080 }, // Slide 3 (tall content)
+    { width: 1280, height: 720 },  // Slide 4
+    { width: 1280, height: 720 },  // Slide 5
+    { width: 1280, height: 720 },  // Slide 6
+    { width: 1280, height: 720 },  // Slide 7
+  ];
 
   for (let i = 0; i < SLIDES; i++) {
+    const page = await browser.newPage({ viewport: VIEWPORTS[i] });
     await page.goto(`http://localhost:${PORT}/?slide=${i + 1}`);
     await page.waitForTimeout(WAIT_MS[i]);
     await page.screenshot({
       path: path.join(OUTPUT_DIR, `slide-${i + 1}.png`),
       fullPage: false,
     });
+    await page.close();
     console.log(`Captured slide ${i + 1}`);
   }
 
