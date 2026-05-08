@@ -32,7 +32,7 @@ async function run() {
   });
 
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1600, height: 900 } });
+  const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
 
   for (let i = 0; i < SLIDES; i++) {
     await page.goto(`http://localhost:${PORT}/?slide=${i + 1}`);
