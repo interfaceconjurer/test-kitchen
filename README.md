@@ -8,7 +8,7 @@ Built as a custom React + Vite slide deck.
 
 ## The Story
 
-### Slide 1 — Two Worlds
+### Two Worlds
 
 ![Slide 1](docs/screenshots/slide-1.png)
 
@@ -16,7 +16,7 @@ I have a degree in drawing, painting, and illustration. I didn't touch a compute
 
 ---
 
-### Slide 2 — The Thing That Bugged Me
+### The Thing That Bugged Me
 
 ![Slide 2](docs/screenshots/slide-2.png)
 
@@ -24,7 +24,7 @@ The original iPhone shipped with six text tones. Six. Tri-Tone, Glass, Horn, Bel
 
 ---
 
-### Slide 3 — Down the Rabbit Hole
+### Down the Rabbit Hole
 
 ![Slide 3](docs/screenshots/slide-3.png)
 
@@ -32,7 +32,7 @@ So I jailbroke the phone. Tethered it to my laptop, SSH'd in as root (password: 
 
 ---
 
-### Slide 4 — Forget About Work. Just Play.
+### Forget About Work. Just Play.
 
 ![Slide 4](docs/screenshots/slide-4.png)
 
@@ -40,7 +40,7 @@ That text tone was my first step into a career I didn't know existed yet. So wha
 
 ---
 
-### Slide 5 — The Experiment
+### The Experiment
 
 ![Slide 5](docs/screenshots/slide-5.png)
 
@@ -48,7 +48,7 @@ To practice what I preach, I fine-tuned an image model. Fine-tuning means teachi
 
 ---
 
-### Slide 6 — The Results
+### The Results
 
 ![Slide 6](docs/screenshots/slide-6.png)
 
@@ -56,7 +56,7 @@ Four training images of Blade Runner 2049-style painterly cyberpunk art went in.
 
 ---
 
-### Slide 7 — Go Build Something
+### Go Build Something
 
 ![Slide 7](docs/screenshots/slide-7.png)
 
