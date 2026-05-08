@@ -1,4 +1,4 @@
-This work was done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series exploring tips and tricks and ways to get started using AI for designers.
+This work was done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series. Exploring tips and tricks and ways to get started using AI for designers.
 
 ![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-1.png)
 
@@ -16,7 +16,7 @@ Built as a custom React + Vite slide deck.
 
 ![Slide 1](docs/screenshots/slide-1.png)
 
-I have a degree in drawing, painting, and illustration. I didn't touch a computer until I was twenty-five. These two halves — the analog creative and the digital unknown — weren't separate chapters. They were running in parallel the whole time, even when I didn't know it yet.
+At this point in my career, I've worked as both a designer and a developer professionally — hired at different places under different disciplines, always doing both roles interchangeably. But if we rewind to college, I had zero technical understanding. My full background and degree was in drawing, painting, and representational art. I didn't touch a computer growing up. I never had one, and I didn't buy my own until I was twenty-five. In college I had to take a couple of introductory graphic design classes where I was exposed to the computer for the first time — started creating vector illustrations and experimenting. Around twenty-five I got my own machine to see what I could do with it. But before that, zero technical ability.
 
 ---
 
@@ -24,7 +24,7 @@ I have a degree in drawing, painting, and illustration. I didn't touch a compute
 
 ![Slide 2](docs/screenshots/slide-2.png)
 
-The original iPhone shipped with six text tones. Six. Tri-Tone, Glass, Horn, Bell, Electronic, Anticipation — and I hated every single one. I'd just come from a Sony Ericsson with a tone I loved, and Apple's locked-down ecosystem told me "no, you get what we give you." That friction was the spark.
+I'd started testing the bounds of this new computer thing and what I could do with it, and about a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones where I really liked some of the sound effects, and I wanted to put those on this new device. I thought — I can easily change those files on my computer, how hard could it be to change them on the phone? Then I discovered my iPhone needed to be "jailbroken." I was confused — I bought the phone. Why is it in jail? That kicked me off on the journey of trying to get root access to this device so I could simply change one MP3 file. How difficult could this actually be?
 
 ---
 
@@ -32,7 +32,7 @@ The original iPhone shipped with six text tones. Six. Tri-Tone, Glass, Horn, Bel
 
 ![Slide 3](docs/screenshots/slide-3.png)
 
-So I jailbroke the phone. Tethered it to my laptop, SSH'd in as root (password: `alpine`, if you know you know), navigated deep into `/System/Library/Audio/UISounds/`, and swapped a `.caf` file. It took me five days. Friends thought I was insane — "just buy a different phone." But from one angle what looked like a waste of time was actually the first time I'd ever felt the rush of making a computer do exactly what I wanted.
+So here I am trying to crack this phone. I've got it tethered to the iMac. I'm SSHing into the root of the phone — trying to figure out what the hell SSH even is, what the numbers on the other side of the @ mean, how to get to the root level where I can simply swap out one file. But in the midst of all that, I was mystified with how the technology actually worked. It was a super intriguing puzzle. I spent days doing this — investigating, researching, trying different angles — until I finally got through to the other side. People around me at the time thought I was crazy, wasting my time. On the surface it could have looked like that. But in actuality, the thread I was pulling on was the spark that led to me being hired professionally as a developer later in life.
 
 ---
 
