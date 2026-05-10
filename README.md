@@ -1,4 +1,4 @@
-Done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series. Exploring tips, tricks and ways to get started using AI for designers.
+<div align="center">
 
 ![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-1.png)
 
@@ -6,13 +6,28 @@ Done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI
 
 A presentation about experimentation, curiosity, and the unexpected paths that lead us somewhere new.
 
-Built as a custom React + Vite slide deck.
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev) [![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev) [![Slides](https://img.shields.io/badge/slides-7-D97757?style=flat-square)]()
+
+Done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series. Exploring tips, tricks and ways to get started using AI for designers.
+
+</div>
+
+---
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173`. Click right side to advance, left to go back. Arrow keys and spacebar work too. Use `?slide=N` to jump directly to a slide.
 
 ---
 
 ## The Story
 
-### Two Worlds
+### Holding Two Worlds
 
 ![Slide 1](docs/screenshots/slide-1.png)
 
@@ -72,8 +87,6 @@ I created a Python CLI app where anyone can pull it down, give it training image
 
 **[View on Replicate](https://replicate.com/interfaceconjurer/android-dream-v4)** · **[Source Code](https://github.com/interfaceconjurer/fine-tunes)**
 
-A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale: tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
-
 ![Android Dream v4 Cover](https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/android-dream-v4-cover.webp)
 
 | Property        | Value              |
@@ -83,6 +96,13 @@ A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade
 | Training Images | 7 captioned images |
 | Cost            | ~$1.50             |
 | Training Time   | ~20 minutes        |
+
+<details>
+<summary>About the style</summary>
+
+A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale: tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
+
+</details>
 
 <table>
   <tr>
@@ -96,12 +116,3 @@ A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade
     <td><img src="https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/gallery-6.png" width="100%"></td>
   </tr>
 </table>
-
----
-
-## Running Locally
-
-```bash
-npm install
-npm run dev
-```
