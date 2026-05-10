@@ -16,7 +16,7 @@ Built as a custom React + Vite slide deck.
 
 ![Slide 1](docs/screenshots/slide-1.png)
 
-At this point in my career, I've worked as both a designer and a developer professionally — hired at different places under different disciplines, always doing both roles interchangeably. But if we rewind to college, I had zero technical understanding. My full background and degree was in drawing, painting, and representational art. I didn't touch a computer growing up. I never had one, and I didn't buy my own until I was twenty-five. In college I had to take a couple of introductory graphic design classes where I was exposed to the computer for the first time — started creating vector illustrations and experimenting. Around twenty-five I got my own machine to see what I could do with it. But before that, zero technical ability.
+At this point in my career, I've worked as both a designer and a developer professionally — hired at different places under different disciplines, always doing both roles interchangeably. But if we rewind to college, my full background and degree was in drawing, painting, and representational art. I didn't own a computer until I was twenty-five. In college I took a couple of introductory graphic design classes where I was exposed to the computer for the first time — started creating vector illustrations and experimenting. Got my own machine to see what I could do with it.
 
 ---
 
@@ -24,7 +24,7 @@ At this point in my career, I've worked as both a designer and a developer profe
 
 ![Slide 2](docs/screenshots/slide-2.png)
 
-I'd started testing the bounds of this new computer thing and what I could do with it, and about a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones where I really liked some of the sound effects, and I wanted to put those on this new device. I thought — I can easily change those files on my computer, how hard could it be to change them on the phone? Then I discovered my iPhone needed to be "jailbroken." I was confused — I bought the phone. Why is it in jail? That kicked me off on the journey of trying to get root access to this device so I could simply change one MP3 file. How difficult could this actually be?
+I'd started testing the bounds of this new computer thing and what I could do with it, and about a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones where I really liked some of the sound effects, and I wanted to put those on this new device. I thought — I can easily change those files on my computer, how hard could it be to change them on the phone? Then I discovered my iPhone needed to be "jailbroken." I was confused — I bought the phone. Why is it in jail? That kicked me off on the journey of trying to get root access to this device so I could simply change one MP3 file.
 
 ---
 
@@ -32,7 +32,7 @@ I'd started testing the bounds of this new computer thing and what I could do wi
 
 ![Slide 3](docs/screenshots/slide-3.png)
 
-So here I am trying to crack this phone. I've got it tethered to the iMac. I'm SSHing into the root of the phone — trying to figure out what the hell SSH even is, what the numbers on the other side of the @ mean, how to get to the root level where I can simply swap out one file. But in the midst of all that, I was mystified with how the technology actually worked. It was a super intriguing puzzle. I spent days doing this — investigating, researching, trying different angles — until I finally got through to the other side. People around me at the time thought I was crazy, wasting my time. On the surface it could have looked like that. But in actuality, the thread I was pulling on was the spark that led to me being hired professionally as a developer later in life.
+So here I am trying to crack this phone. I've got it tethered to the iMac. I'm SSHing into the root of the phone — trying to figure out what the hell SSH even is, what the numbers on the other side of the @ mean, how to get to the root level where I can simply swap out one file. But in the midst of all that, I was mystified with how the technology actually worked. It was a super intriguing puzzle. I spent days researching and trying different angles until I finally got through to the other side. People around me thought I was crazy, wasting my time. But the thread I was pulling on was the spark that led to me being hired professionally as a developer later in life.
 
 ---
 
@@ -48,7 +48,7 @@ In the end, the text tone itself was insignificant compared to the journey of ex
 
 ![Slide 5](docs/screenshots/slide-5.png)
 
-A recent experiment for me was fine tuning an image model on Replicate. Fine-tuning means teaching an existing AI model to recognize a new visual concept — an art style, a face, a product — so it can generate new images featuring that concept on demand. You feed training photos into a base model (FLUX) through a lightweight adapter called a LoRA, and out come images that blend what the model already knows with what you just taught it.
+A recent experiment for me was fine tuning an image model on Replicate. Fine-tuning means teaching an existing AI model to recognize a new visual concept — like an art style — so it can generate new images featuring that concept on demand. You feed training photos into a base model (FLUX) through a lightweight adapter called a LoRA, and out come images that blend what the model already knows with what you just taught it.
 
 ---
 
