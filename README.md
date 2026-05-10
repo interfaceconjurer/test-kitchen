@@ -16,7 +16,7 @@ Built as a custom React + Vite slide deck.
 
 ![Slide 1](docs/screenshots/slide-1.png)
 
-At this point in my career, I've worked as both a designer and a developer professionally — hired at different places under different disciplines, always doing both roles interchangeably. But if we rewind to college, my full background and degree was in drawing, painting, and representational art. I didn't own a computer until I was twenty-five. In college I took a couple of introductory graphic design classes where I was exposed to the computer for the first time — started creating vector illustrations and experimenting. Got my own machine to see what I could do with it.
+I've worked as both a designer and a developer professionally, but if we rewind to college — my degree was in drawing, painting, and representational art. I didn't own a computer until I was twenty-five. A couple of graphic design classes exposed me to one for the first time, and I got my own machine to see what I could do with it.
 
 ---
 
@@ -24,7 +24,7 @@ At this point in my career, I've worked as both a designer and a developer profe
 
 ![Slide 2](docs/screenshots/slide-2.png)
 
-I'd started testing the bounds of this new computer thing and what I could do with it, and about a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones where I really liked some of the sound effects, and I wanted to put those on this new device. I thought — I can easily change those files on my computer, how hard could it be to change them on the phone? Then I discovered my iPhone needed to be "jailbroken." I was confused — I bought the phone. Why is it in jail? That kicked me off on the journey of trying to get root access to this device so I could simply change one MP3 file.
+About a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones with sounds I loved, and I wanted to put those on this new device. I thought — I can change those files on my computer, how hard could it be on the phone? Then I discovered my iPhone needed to be "jailbroken." I bought the phone. Why is it in jail? That kicked me off trying to get root access just to swap one MP3 file.
 
 ---
 
@@ -32,7 +32,7 @@ I'd started testing the bounds of this new computer thing and what I could do wi
 
 ![Slide 3](docs/screenshots/slide-3.png)
 
-So here I am trying to crack this phone. I've got it tethered to the iMac. I'm SSHing into the root of the phone — trying to figure out what the hell SSH even is, what the numbers on the other side of the @ mean, how to get to the root level where I can simply swap out one file. But in the midst of all that, I was mystified with how the technology actually worked. It was a super intriguing puzzle. I spent days researching and trying different angles until I finally got through to the other side. People around me thought I was crazy, wasting my time. But the thread I was pulling on was the spark that led to me being hired professionally as a developer later in life.
+So here I am, phone tethered to the iMac, SSHing into root — trying to figure out what SSH even is, what the numbers on the other side of the @ mean, how to get to where I can swap out one file. In the midst of all that, I was mystified with how the technology actually worked. I spent days trying different angles until I finally got through. People around me thought I was crazy. But that thread was the spark that led to me being hired as a developer later in life.
 
 ---
 
@@ -40,7 +40,7 @@ So here I am trying to crack this phone. I've got it tethered to the iMac. I'm S
 
 ![Slide 4](docs/screenshots/slide-4.png)
 
-In the end, the text tone itself was insignificant compared to the journey of exploration through this underlying technical architecture. It was interesting to me and it sparked my curiosity. I think it's important to find that spark. Something that makes you curious, something that delights you, something that you feel needs to be fixed, and run with it. Don't worry about knowing how. Just explore and create.
+The text tone itself was insignificant compared to the journey of exploration it opened up. It sparked my curiosity. I think it's important to find that spark — something that makes you curious, delights you, or feels like it needs to be fixed — and run with it. Don't worry about knowing how. Just explore and create.
 
 ---
 
@@ -48,7 +48,7 @@ In the end, the text tone itself was insignificant compared to the journey of ex
 
 ![Slide 5](docs/screenshots/slide-5.png)
 
-A recent experiment for me was fine tuning an image model on Replicate. Fine-tuning means teaching an existing AI model to recognize a new visual concept — like an art style — so it can generate new images featuring that concept on demand. You feed training photos into a base model (FLUX) through a lightweight adapter called a LoRA, and out come images that blend what the model already knows with what you just taught it.
+A recent experiment for me was fine-tuning an image model on Replicate. You teach an existing model to recognize a new visual concept — like an art style — by feeding training photos through a lightweight adapter called a LoRA. Out come images that blend what the model already knows with what you just taught it.
 
 ---
 
@@ -64,7 +64,7 @@ A recent experiment for me was fine tuning an image model on Replicate. Fine-tun
 
 ![Slide 7](docs/screenshots/slide-7.png)
 
-So I created a Python CLI app where anyone could pull it down on their machine, give it some training images, and have it generate a fine-tune for them. As easy as pointing an agent to a URL and telling it to give you a plan to execute. That way the exploration could have the least friction and allow people to maybe find a spark.
+I created a Python CLI app where anyone can pull it down, give it training images, and generate a fine-tune. Point an agent to the URL and tell it to give you a plan to execute. Least friction possible — so people can find their own spark.
 
 ---
 
