@@ -16,7 +16,7 @@ Built as a custom React + Vite slide deck.
 
 ![Slide 1](docs/screenshots/slide-1.png)
 
-I've worked as both a designer and a developer professionally, but if we rewind to college — my degree was in drawing, painting, and representational art. I didn't own a computer until I was twenty-five. A couple of graphic design classes exposed me to one for the first time, and I got my own machine to see what I could do with it.
+I've worked as both a designer and a developer professionally, but if we rewind to college: my degree was in drawing, painting, and representational art. I didn't own a computer until I was twenty-five. A couple of graphic design classes exposed me to one for the first time, and I got my own machine to see what I could do with it.
 
 ---
 
@@ -24,7 +24,7 @@ I've worked as both a designer and a developer professionally, but if we rewind 
 
 ![Slide 2](docs/screenshots/slide-2.png)
 
-About a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones with sounds I loved, and I wanted to put those on this new device. I thought — I can change those files on my computer, how hard could it be on the phone? Then I discovered my iPhone needed to be "jailbroken." I bought the phone. Why is it in jail? That kicked me off trying to get root access just to swap one MP3 file.
+About a year later the original iPhone came out. I hated every single sound it made. I'd had previous phones with sounds I loved, and I wanted to put those on this new device. I thought, I can change those files on my computer, how hard could it be on the phone? Then I discovered my iPhone needed to be "jailbroken." I bought the phone. Why is it in jail? That kicked me off trying to get root access just to swap one MP3 file.
 
 ---
 
@@ -32,7 +32,7 @@ About a year later the original iPhone came out. I hated every single sound it m
 
 ![Slide 3](docs/screenshots/slide-3.png)
 
-So here I am, phone tethered to the iMac, SSHing into root — trying to figure out what SSH even is, what the numbers on the other side of the @ mean, how to get to where I can swap out one file. In the midst of all that, I was mystified with how the technology actually worked. I spent days trying different angles until I finally got through. People around me thought I was crazy. But that thread was the spark that led to me being hired as a developer later in life.
+So here I am, phone tethered to the iMac, SSHing into root. Trying to figure out what SSH even is, what the numbers on the other side of the @ mean, how to get to where I can swap out one file. In the midst of all that, I was mystified with how the technology actually worked. I spent days trying different angles until I finally got through. People around me thought I was crazy. But that thread was the spark that led to me being hired as a developer later in life.
 
 ---
 
@@ -40,7 +40,7 @@ So here I am, phone tethered to the iMac, SSHing into root — trying to figure 
 
 ![Slide 4](docs/screenshots/slide-4.png)
 
-The text tone itself was insignificant compared to the journey of exploration it opened up. It sparked my curiosity. I think it's important to find that spark — something that makes you curious, delights you, or feels like it needs to be fixed — and run with it. Don't worry about knowing how. Just explore and create.
+The text tone itself was insignificant compared to the journey of exploration it opened up. It sparked my curiosity. I think it's important to find that spark. Something that makes you curious, delights you, or feels like it needs to be fixed. And run with it. Don't worry about knowing how. Just explore and create.
 
 ---
 
@@ -48,7 +48,7 @@ The text tone itself was insignificant compared to the journey of exploration it
 
 ![Slide 5](docs/screenshots/slide-5.png)
 
-A recent experiment for me was fine-tuning an image model on Replicate. You teach an existing model to recognize a new visual concept — like an art style — by feeding training photos through a lightweight adapter called a LoRA. Out come images that blend what the model already knows with what you just taught it.
+A recent experiment for me was fine-tuning an image model on Replicate. You teach an existing model to recognize a new visual concept, like an art style, by feeding training photos through a lightweight adapter called a LoRA. Out come images that blend what the model already knows with what you just taught it.
 
 ---
 
@@ -56,7 +56,7 @@ A recent experiment for me was fine-tuning an image model on Replicate. You teac
 
 ![Slide 6](docs/screenshots/slide-6.png)
 
-10 training images of Blade Runner 2049-style concept art, a creative prompt, and the model spit out entirely new compositions in that same style — moody neon cityscapes, silhouetted figures, cinematic light. The whole thing ran on Replicate's infrastructure. No GPUs to configure, no ML expertise required.
+10 training images of Blade Runner 2049-style concept art, a creative prompt, and the model spit out entirely new compositions in that same style. Moody neon cityscapes, silhouetted figures, cinematic light. The whole thing ran on Replicate's infrastructure. No GPUs to configure, no ML expertise required.
 
 ---
 
@@ -64,7 +64,7 @@ A recent experiment for me was fine-tuning an image model on Replicate. You teac
 
 ![Slide 7](docs/screenshots/slide-7.png)
 
-I created a Python CLI app where anyone can pull it down, give it training images, and generate a fine-tune. Point an agent to the URL and tell it to give you a plan to execute. Least friction possible — so people can find their own spark.
+I created a Python CLI app where anyone can pull it down, give it training images, and generate a fine-tune. Point an agent to the URL and tell it to give you a plan to execute. Least friction possible, so people can find their own spark.
 
 ---
 
@@ -72,7 +72,7 @@ I created a Python CLI app where anyone can pull it down, give it training image
 
 **[View on Replicate](https://replicate.com/interfaceconjurer/android-dream-v4)** · **[Source Code](https://github.com/interfaceconjurer/fine-tunes)**
 
-A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale — tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
+A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale: tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
 
 | Property        | Value              |
 | --------------- | ------------------ |
