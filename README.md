@@ -24,7 +24,7 @@ My degree was in drawing, painting, and representational art. I didn't own a com
 
 ![Slide 2](docs/screenshots/slide-2.png)
 
-The original iPhone came out. I hated every single sound it made. Then I discovered my iPhone needed to be "jailbroken." I bought the phone. Why is it in jail? That kicked me off trying to get root access just to swap one MP3 file.
+The original iPhone came out. I hated every single sound it made. Then I discovered my iPhone needed to be "jailbroken." I bought the phone, why is it in jail? That kicked me off trying to get root access just to swap one MP3 file.
 
 ---
 
@@ -74,6 +74,8 @@ I created a Python CLI app where anyone can pull it down, give it training image
 
 A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale: tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
 
+![Android Dream v4 Cover](https://raw.githubusercontent.com/interfaceconjurer/fine-tunes/main/docs/android-dream-v4-cover.webp)
+
 | Property        | Value              |
 | --------------- | ------------------ |
 | Trigger Word    | `BLADED`           |
@@ -103,7 +105,3 @@ A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade
 npm install
 npm run dev
 ```
-
-Open `http://localhost:5173`. Click right side to advance, left to go back. Arrow keys and spacebar work too.
-
-Use `?slide=N` to jump directly to a slide (1-7).
