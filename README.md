@@ -1,4 +1,4 @@
-This work was done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series. Exploring tips and tricks and ways to get started using AI for designers.
+Done in collaboration with [@lindsaylee](https://github.com/lindsaylee) on an AI Test Kitchen series. Exploring tips, tricks and ways to get started using AI for designers.
 
 ![Test Kitchen](docs/Test%20Kitchen%205_7_26_%20Jordan%20Wright%20-%20Curiosity%20%26%20Experimentation-1.png)
 
@@ -48,7 +48,7 @@ In the end, the text tone itself was insignificant compared to the journey of ex
 
 ![Slide 5](docs/screenshots/slide-5.png)
 
-To practice what I preach, I fine-tuned an image model. Fine-tuning means teaching an existing AI model to recognize a new visual concept — an art style, a face, a product — so it can generate new images featuring that concept on demand. You feed training photos into a base model (FLUX) through a lightweight adapter called a LoRA, and out come images that blend what the model already knows with what you just taught it.
+A recent experiment for me was fine tuning an image model on Replicate. Fine-tuning means teaching an existing AI model to recognize a new visual concept — an art style, a face, a product — so it can generate new images featuring that concept on demand. You feed training photos into a base model (FLUX) through a lightweight adapter called a LoRA, and out come images that blend what the model already knows with what you just taught it.
 
 ---
 
@@ -56,7 +56,7 @@ To practice what I preach, I fine-tuned an image model. Fine-tuning means teachi
 
 ![Slide 6](docs/screenshots/slide-6.png)
 
-Four training images of Blade Runner 2049-style painterly cyberpunk art went in. A creative prompt and the model spit out entirely new compositions in that same style — moody neon cityscapes, silhouetted figures, cinematic light. The whole thing ran on Replicate's infrastructure. No GPUs to configure, no ML expertise required.
+10 training images of Blade Runner 2049-style concept art, a creative prompt, and the model spit out entirely new compositions in that same style — moody neon cityscapes, silhouetted figures, cinematic light. The whole thing ran on Replicate's infrastructure. No GPUs to configure, no ML expertise required.
 
 ---
 
@@ -64,7 +64,7 @@ Four training images of Blade Runner 2049-style painterly cyberpunk art went in.
 
 ![Slide 7](docs/screenshots/slide-7.png)
 
-The tool I built to do all this is called Fine Tunes — a Python CLI wrapper around Replicate's Flux LoRA fine-tuning API. It's open source. But the point isn't the tool. The point is that none of this would have happened if I hadn't spent five days changing a text tone fifteen years ago. Every big thing starts with one small, slightly obsessive step.
+So I created a Python CLI app where anyone could pull it down on their machine, give it some training images, and have it generate a fine-tune for them. As easy as pointing an agent to a URL and telling it to give you a plan to execute. That way the exploration could have the least friction and allow people to maybe find a spark.
 
 ---
 
@@ -74,13 +74,13 @@ The tool I built to do all this is called Fine Tunes — a Python CLI wrapper ar
 
 A custom Flux LoRA trained on painterly illustrated poster art inspired by Blade Runner 2049. The style features atmospheric cyberpunk cityscapes with dramatic scale — tiny silhouetted figures dwarfed by massive holographic projections and towering brutalist architecture. Bold warm-vs-cool color palettes (orange and red ground planes against blue-teal structures), heavy atmospheric perspective, soft diffused edges, and moody god rays cutting through fog.
 
-| Property | Value |
-|----------|-------|
-| Trigger Word | `BLADED` |
-| Training Steps | 2000 |
+| Property        | Value              |
+| --------------- | ------------------ |
+| Trigger Word    | `BLADED`           |
+| Training Steps  | 2000               |
 | Training Images | 7 captioned images |
-| Cost | ~$1.50 |
-| Training Time | ~20 minutes |
+| Cost            | ~$1.50             |
+| Training Time   | ~20 minutes        |
 
 <table>
   <tr>
