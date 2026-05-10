@@ -40,7 +40,7 @@ So here I am trying to crack this phone. I've got it tethered to the iMac. I'm S
 
 ![Slide 4](docs/screenshots/slide-4.png)
 
-That text tone was my first step into a career I didn't know existed yet. So what I want to implore you to do is forget about work for a minute. Find a spark. Find something that bugs you, or delights you, or just makes you curious — and run with it. Don't worry about knowing how. Just play.
+In the end, the text tone itself was insignificant compared to the journey of exploration through this underlying technical architecture. It was interesting to me and it sparked my curiosity. I think it's important to find that spark. Something that makes you curious, something that delights you, something that you feel needs to be fixed, and run with it. Don't worry about knowing how. Just explore and create.
 
 ---
 
